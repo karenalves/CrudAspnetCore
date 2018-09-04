@@ -12224,11 +12224,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\soitic\\Desktop\\soitic\\CrudAspnetCore\\CrudAspnetCore\\CrudAspnetCore\\CrudAspnetCore.csproj",
+      "projectUniqueName": "C:\\Users\\soitic\\Desktop\\soitic\\CrudAspnetCore\\CrudAspnetCore\\CrudAspnetCore.csproj",
       "projectName": "CrudAspnetCore",
-      "projectPath": "C:\\Users\\soitic\\Desktop\\soitic\\CrudAspnetCore\\CrudAspnetCore\\CrudAspnetCore\\CrudAspnetCore.csproj",
+      "projectPath": "C:\\Users\\soitic\\Desktop\\soitic\\CrudAspnetCore\\CrudAspnetCore\\CrudAspnetCore.csproj",
       "packagesPath": "C:\\Users\\soitic\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\soitic\\Desktop\\soitic\\CrudAspnetCore\\CrudAspnetCore\\CrudAspnetCore\\obj\\",
+      "outputPath": "C:\\Users\\soitic\\Desktop\\soitic\\CrudAspnetCore\\CrudAspnetCore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
