@@ -12,12 +12,13 @@ namespace CrudAspnetCore.Models
         public int Id { get; set; }
 
         [Required(ErrorMessage = "Favor informar Nome Fantasia")]
+        [StringLength(60, MinimumLength = 1)]
         public string NomeFantasia { get; set; }
 
         [Required(ErrorMessage = "Favor informar Razão Social")]
+        [StringLength(60, MinimumLength = 1)]
         public string RazaoSocial { get; set; }
 
-        [Required(ErrorMessage = "Favor informar Razão Social")]
         public string Cnpj { get; set; }
 
         public Endereco Endereco { get; set; }

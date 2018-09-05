@@ -1,0 +1,56 @@
+﻿@model IEnumerable<CrudAspnetCore.Models.Funcionario>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Funcionários</h2>
+<hr />
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        <a class="btn btn-default" asp-controller="Funcionarios" asp-action="create">Add Funcionário</a>
+    </div>
+    <div class="panel-body">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Nome)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Sobrenome)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Cpf)
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Nome)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Sobrenome)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Cpf)
+                        </td>
+                        <td>
+                            <a asp-action="Detalhe" asp-route-id="@item.Id">Visualizar</a> |
+                            <a asp-action="Editar"  asp-route-id="@item.Id">Editar</a> |
+                            <a asp-action="Deletar" asp-route-id="@item.Id">Deletar</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+
+

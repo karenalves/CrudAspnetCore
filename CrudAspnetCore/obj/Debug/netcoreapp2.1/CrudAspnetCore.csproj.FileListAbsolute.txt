@@ -33,3 +33,13 @@ C:\Users\soitic\Desktop\soitic\CrudAspnetCore\CrudAspnetCore\obj\Debug\netcoreap
 C:\Users\soitic\Desktop\soitic\CrudAspnetCore\CrudAspnetCore\obj\Debug\netcoreapp2.1\CrudAspnetCore.dll
 C:\Users\soitic\Desktop\soitic\CrudAspnetCore\CrudAspnetCore\obj\Debug\netcoreapp2.1\CrudAspnetCore.pdb
 C:\Users\soitic\Desktop\soitic\CrudAspnetCore\CrudAspnetCore\obj\Debug\netcoreapp2.1\CrudAspnetCore.csproj.CopyComplete
+C:\Users\soitic\Desktop\soitic\CrudAspnetCore\CrudAspnetCore\obj\Debug\netcoreapp2.1\Razor\Views\Empresas\Index.g.cshtml.cs
+C:\Users\soitic\Desktop\soitic\CrudAspnetCore\CrudAspnetCore\obj\Debug\netcoreapp2.1\Razor\Views\Empresas\Create.g.cshtml.cs
+C:\Users\soitic\Desktop\soitic\CrudAspnetCore\CrudAspnetCore\obj\Debug\netcoreapp2.1\Razor\Views\Empresas\Detalhe.g.cshtml.cs
+C:\Users\soitic\Desktop\soitic\CrudAspnetCore\CrudAspnetCore\obj\Debug\netcoreapp2.1\Razor\Views\Empresas\Editar.g.cshtml.cs
+C:\Users\soitic\Desktop\soitic\CrudAspnetCore\CrudAspnetCore\obj\Debug\netcoreapp2.1\Razor\Views\Empresas\Deletar.g.cshtml.cs
+C:\Users\soitic\Desktop\soitic\CrudAspnetCore\CrudAspnetCore\obj\Debug\netcoreapp2.1\Razor\Views\Funcionarios\Index.g.cshtml.cs
+C:\Users\soitic\Desktop\soitic\CrudAspnetCore\CrudAspnetCore\obj\Debug\netcoreapp2.1\Razor\Views\Funcionarios\Create.g.cshtml.cs
+C:\Users\soitic\Desktop\soitic\CrudAspnetCore\CrudAspnetCore\obj\Debug\netcoreapp2.1\Razor\Views\Funcionarios\Editar.g.cshtml.cs
+C:\Users\soitic\Desktop\soitic\CrudAspnetCore\CrudAspnetCore\obj\Debug\netcoreapp2.1\Razor\Views\Funcionarios\Detalhe.g.cshtml.cs
+C:\Users\soitic\Desktop\soitic\CrudAspnetCore\CrudAspnetCore\obj\Debug\netcoreapp2.1\Razor\Views\Funcionarios\Deletar.g.cshtml.cs

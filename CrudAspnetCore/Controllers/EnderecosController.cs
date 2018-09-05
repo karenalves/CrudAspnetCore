@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace CrudAspnetCore.Controllers
 {
-    public class EnderecoController : Controller
+    public class EnderecosController : Controller
     {
         public IActionResult Index()
         {

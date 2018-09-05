@@ -1,0 +1,73 @@
+﻿@model CrudAspnetCore.Models.Empresa
+
+@{
+    ViewData["Title"] = "Detalhe";
+}
+
+<h2>Informações da Empresa</h2>
+<hr />
+
+<div class="col-md-12">
+    <dl class="dl-horizontal">
+        <h3>Empresa</h3>
+        <dt>
+            @Html.DisplayNameFor(model => model.NomeFantasia)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.NomeFantasia)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.RazaoSocial)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.RazaoSocial)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Cnpj)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Cnpj)
+        </dd>
+        <h3>Endereço</h3>
+        <dt>
+            @Html.DisplayNameFor(model => model.Endereco.Rua)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Endereco.Rua)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Endereco.Numero)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Endereco.Numero)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Endereco.Bairro)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Endereco.Bairro)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Endereco.Cep)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Endereco.Cep)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Endereco.Cidade)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Endereco.Cidade)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Endereco.Estado)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Endereco.Estado)
+        </dd>
+    </dl>
+</div>
+<div class="col-md-3">
+    <a asp-controller="Empresas" asp-action="Index" class="btn btn-danger" id="btn_voltarCreate">Voltar</a>
+</div>
+
