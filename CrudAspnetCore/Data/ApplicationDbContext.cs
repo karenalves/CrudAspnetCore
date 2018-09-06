@@ -20,5 +20,7 @@ namespace CrudAspnetCore.Data
 
         public DbSet<Funcionario> Funcionarios { get; set; }
 
+        public DbSet<Cliente> Clientes { get; set; }
+
     }
 }

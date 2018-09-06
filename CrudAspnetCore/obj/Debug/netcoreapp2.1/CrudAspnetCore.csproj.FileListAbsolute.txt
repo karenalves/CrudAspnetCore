@@ -44,3 +44,6 @@ C:\Users\soitic\Desktop\soitic\CrudAspnetCore\CrudAspnetCore\obj\Debug\netcoreap
 C:\Users\soitic\Desktop\soitic\CrudAspnetCore\CrudAspnetCore\obj\Debug\netcoreapp2.1\Razor\Views\Funcionarios\Deletar.g.cshtml.cs
 C:\Users\soitic\Desktop\soitic\CrudAspnetCore\CrudAspnetCore\obj\Debug\netcoreapp2.1\Razor\Views\Relatorios\Index.g.cshtml.cs
 C:\Users\soitic\Desktop\soitic\CrudAspnetCore\CrudAspnetCore\obj\Debug\netcoreapp2.1\CrudAspnetCore.csprojAssemblyReference.cache
+C:\Users\soitic\Desktop\soitic\CrudAspnetCore\CrudAspnetCore\obj\Debug\netcoreapp2.1\Razor\Views\Clientes\Index.g.cshtml.cs
+C:\Users\soitic\Desktop\soitic\CrudAspnetCore\CrudAspnetCore\obj\Debug\netcoreapp2.1\Razor\Views\Clientes\Create.g.cshtml.cs
+C:\Users\soitic\Desktop\soitic\CrudAspnetCore\CrudAspnetCore\obj\Debug\netcoreapp2.1\Razor\Views\Clientes\Editar.g.cshtml.cs
