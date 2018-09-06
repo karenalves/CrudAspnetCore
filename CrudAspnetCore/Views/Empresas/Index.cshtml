@@ -40,9 +40,9 @@
                             @Html.DisplayFor(modelItem => item.Cnpj)
                         </td>
                         <td>
-                            <a asp-action="Detalhe" asp-route-id="@item.Id">Visualizar</a> |
-                            <a asp-action="Editar" asp-route-id="@item.Id">Editar</a> |
-                            <a asp-action="Deletar" asp-route-id="@item.Id">Deletar</a>
+                            <a asp-action="Detalhe" asp-route-id="@item.Id" class="btn btn-primary glyphicon glyphicon glyphicon-zoom-in"></a> |
+                            <a asp-action="Editar" asp-route-id="@item.Id" class="btn btn-warning glyphicon glyphicon-pencil"></a> |
+                            <a asp-action="Deletar" asp-route-id="@item.Id" class="btn btn-danger glyphicon glyphicon-trash"></a>
                         </td>
                     </tr>
                 }

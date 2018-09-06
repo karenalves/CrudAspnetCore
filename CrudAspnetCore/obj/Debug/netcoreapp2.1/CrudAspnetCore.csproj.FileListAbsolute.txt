@@ -5,7 +5,6 @@ C:\Users\soitic\Desktop\soitic\CrudAspnetCore\CrudAspnetCore\bin\Debug\netcoreap
 C:\Users\soitic\Desktop\soitic\CrudAspnetCore\CrudAspnetCore\bin\Debug\netcoreapp2.1\CrudAspnetCore.pdb
 C:\Users\soitic\Desktop\soitic\CrudAspnetCore\CrudAspnetCore\bin\Debug\netcoreapp2.1\CrudAspnetCore.Views.dll
 C:\Users\soitic\Desktop\soitic\CrudAspnetCore\CrudAspnetCore\bin\Debug\netcoreapp2.1\CrudAspnetCore.Views.pdb
-C:\Users\soitic\Desktop\soitic\CrudAspnetCore\CrudAspnetCore\obj\Debug\netcoreapp2.1\CrudAspnetCore.csprojAssemblyReference.cache
 C:\Users\soitic\Desktop\soitic\CrudAspnetCore\CrudAspnetCore\obj\Debug\netcoreapp2.1\CrudAspnetCore.csproj.CoreCompileInputs.cache
 C:\Users\soitic\Desktop\soitic\CrudAspnetCore\CrudAspnetCore\obj\Debug\netcoreapp2.1\CrudAspnetCore.RazorAssemblyInfo.cache
 C:\Users\soitic\Desktop\soitic\CrudAspnetCore\CrudAspnetCore\obj\Debug\netcoreapp2.1\CrudAspnetCore.RazorAssemblyInfo.cs
@@ -43,3 +42,5 @@ C:\Users\soitic\Desktop\soitic\CrudAspnetCore\CrudAspnetCore\obj\Debug\netcoreap
 C:\Users\soitic\Desktop\soitic\CrudAspnetCore\CrudAspnetCore\obj\Debug\netcoreapp2.1\Razor\Views\Funcionarios\Editar.g.cshtml.cs
 C:\Users\soitic\Desktop\soitic\CrudAspnetCore\CrudAspnetCore\obj\Debug\netcoreapp2.1\Razor\Views\Funcionarios\Detalhe.g.cshtml.cs
 C:\Users\soitic\Desktop\soitic\CrudAspnetCore\CrudAspnetCore\obj\Debug\netcoreapp2.1\Razor\Views\Funcionarios\Deletar.g.cshtml.cs
+C:\Users\soitic\Desktop\soitic\CrudAspnetCore\CrudAspnetCore\obj\Debug\netcoreapp2.1\Razor\Views\Relatorios\Index.g.cshtml.cs
+C:\Users\soitic\Desktop\soitic\CrudAspnetCore\CrudAspnetCore\obj\Debug\netcoreapp2.1\CrudAspnetCore.csprojAssemblyReference.cache

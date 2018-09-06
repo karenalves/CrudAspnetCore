@@ -27,7 +27,6 @@ namespace CrudAspnetCore.Models
         public string Estado { get; set; }
 
         [Required(ErrorMessage = "Favor informar Numero")]
-        [StringLength(100, MinimumLength = 1)]
         public int Numero { get; set; }
 
         public string Cep { get; set; }

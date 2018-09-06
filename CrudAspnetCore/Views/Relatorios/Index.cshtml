@@ -1,0 +1,62 @@
+﻿@model CrudAspnetCore.Models.Empresa
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Relatório</h2>
+<hr />
+<h4>Funcionários por Empresa</h4>
+
+<div class="conteiner">
+    <div class="painel">
+        <div class="col-md-12">
+            <form asp-controller="Relatorios" asp-action="Index" method="post">
+                <div class="form-group row">
+                    <div class="col-md-3">
+                        <hr />
+                        @Html.DisplayName("Pesquisa")
+                    </div>
+                </div>
+                <div class="row">
+                    @Html.DisplayName("Empresa")
+                </div>
+                <div class="form-group row">
+                    <div class="col-md-3">
+                        @Html.DropDownListFor(model => model.Id, (SelectList)ViewBag.empresa, "Selecione Empresa", new { @class = "form-control" })
+                    </div>
+                    <div class="col-md-3">
+                        <button type="submit" class="btn btn-primary glyphicon glyphicon-search"></button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="col-md-12">            
+            @if (ViewBag.funcionarios != null)
+            {
+                <table class="table table-dark">
+                    <thead>
+                        <tr>
+                            <th scope="col">Funcionário</th>
+                            <th scope="col">Sobrenome</th>
+                            <th scope="col">Cpf</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var func in ViewBag.funcionarios)
+                        {
+                        <tr>
+                            <td>@func.Nome</td>
+                            <td>@func.Sobrenome</td>
+                            <td>@func.Cpf</td>
+                        </tr>
+                        }
+                    </tbody>
+                </table>
+            }
+        </div>
+        
+    </div>
+    
+</div>
+
